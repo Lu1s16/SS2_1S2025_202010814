@@ -1,23 +1,24 @@
-import cargaArchivo as ca
+from Extraccion import extraer
+from Transformacion import dataFrame
 
 
-
-def extraerModelo():
+def CargarRuta():
 
     try:
         ruta: str = input("Ingrese la ruta del .csv: ")
 
-        carga = ca.CargaArchivo(ruta)
-        carga.extraer()
+        df = extraer(ruta)
+        return df
 
     except TypeError:
         print("Error al ingresar la ruta")
 
-
+#C:\Users\Luis\Documents\Cursos\Semi2\Practica1\VuelosDataSet.csv
 
 def Menu():
 
     salir = False
+    cargar_datos = False
 
     while not salir:
 
@@ -44,9 +45,21 @@ def Menu():
                 pass
 
             elif op == 3:
-                extraerModelo()
+                df = CargarRuta()
+                cargar_datos = True
 
             elif op == 4:
+                if(cargar_datos):
+                    data = dataFrame(df)
+                    #dim_fecha = data.dimension_fecha()
+                    #dim_pasajeros = data.dimension_pasajeros()
+                    #dim_aeropuertos = data.dimension_aeropuerto()
+                    #dim_aeropuertosLlegada = data.dimension_aeropuertoLlegada()
+                    #dim_pilotos = data.dimension_piloto()
+                    dim_estados = data.dimension_estados()
+                else:
+                    print("Aun no se han cargado datos para transformar")
+
                 pass
 
             elif op == 5:
