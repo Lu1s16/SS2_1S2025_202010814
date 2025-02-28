@@ -36,8 +36,8 @@ class dataFrame():
         dim_fecha["Month"] = dim_fecha["DepartureDate"].dt.month
         dim_fecha["Day"] = dim_fecha["DepartureDate"].dt.day 
 
-        print("Dimension fecha:")
-        print(dim_fecha.head())
+        #print("Dimension fecha:")
+        #print(dim_fecha.head())
 
         return dim_fecha
 
@@ -52,7 +52,6 @@ class dataFrame():
         #Age
         #Nationality
         try:
-            
 
             dim_pasajeros = self.df[["Passenger ID", "First Name", "Last Name", "Gender", "Age", "Nationality"]].drop_duplicates()
 
@@ -60,6 +59,7 @@ class dataFrame():
 
             print("Dimension Pasajeros:")
             print(dim_pasajeros.head())
+            print(len(dim_pasajeros))
 
             return dim_pasajeros
         
@@ -86,11 +86,14 @@ class dataFrame():
             self.df["Airport Country Code"] = self.df["Airport Country Code"].apply(Convertir_mayuscula)
             self.df["Airport Continent"] = self.df["Airport Continent"].apply(Convertir_mayuscula)
 
-            dim_aeropuertos = self.df[["Airport Name", "Airport Country Code", "Airport Continent", "Continents"]].drop_duplicates()
+            dim_aeropuertos = self.df[["Airport Name", "Airport Country Code", "Country Name", "Airport Continent", "Continents"]].drop_duplicates()
+            dim_aeropuertos = dim_aeropuertos.drop_duplicates(subset=['Airport Name'])
             dim_aeropuertos["ID"] = range(1, len(dim_aeropuertos) + 1)
 
             print("Dimension aeropuertos:")
             print(dim_aeropuertos.head())
+            print(len(dim_aeropuertos))
+            print(self.df.index.duplicated().any())
 
             return dim_aeropuertos
 
@@ -136,6 +139,7 @@ class dataFrame():
 
             print("Dimension pilotos:")
             print(dim_pilotos.head())
+            
 
             return dim_pilotos
 
@@ -162,3 +166,26 @@ class dataFrame():
             print("Error al procesar estados")
             print(e)
             return 
+
+    def tabla_hechos(self, dim_fecha, dim_pasajeros, dim_aeropuertos, dim_aeropuertosLlegada, dim_pilotos, dim_estados):
+        print("Procesando tabla hechos...")
+
+        try:
+
+            self.df["DepartureDateID"] = self.df["DepartureDate"].map(dim_fecha.set_index("DepartureDate")["ID"])
+            self.df["PassengerID"] = self.df["Passenger ID"].map(dim_pasajeros.set_index("Passenger ID")["ID"])
+            self.df["AirportID"] = self.df["Airport Name"].map(dim_aeropuertos.set_index("Airport Name")["ID"])
+            self.df["ArrivalAirportID"] = self.df["Arrival Airport"].map(dim_aeropuertosLlegada.set_index("Arrival Airport")["ID"])
+            self.df["PilotID"] = self.df["Pilot Name"].map(dim_pilotos.set_index("Pilot Name")["ID"])
+            self.df["FlightStatusID"] = self.df["Flight Status"].map(dim_estados.set_index("Flight Status")["ID"])
+
+            hechos = self.df[['PassengerID', 'AirportID', 'ArrivalAirportID', 'PilotID', 'DepartureDateID', 'FlightStatusID']]
+
+            print("Tabla hechos:")
+            print(hechos.head())
+            return hechos
+
+        except Exception as e:
+            print("Error al crear la tabla hechos")
+            print(e)
+        pass

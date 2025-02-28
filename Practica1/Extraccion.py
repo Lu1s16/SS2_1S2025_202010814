@@ -13,7 +13,10 @@ def extraer(ruta):
         print(df.head())
         print("ultimas 5 filas")
         print(df.tail())
-        print(type(df))
+        #print(df.duplicated(subset=['Passenger ID']))
+        #for c in df.duplicated(subset=["Passenger ID"]):
+        #    if c:
+        #        print("True")
         return df
         
     except Exception as e:
