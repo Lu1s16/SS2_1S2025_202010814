@@ -5,7 +5,6 @@ class dataFrame():
     def __init__(self, df: pd.DataFrame):
         self.df = df
 
-
     def dimension_fecha(self):
         print("Procesando fechas...")
 
@@ -19,7 +18,6 @@ class dataFrame():
                     continue 
 
             return pd.Nat
-
 
         #Normalizamos las fechas de la columna "departure Date"
         #Nombre de la columna del archivo
@@ -35,9 +33,6 @@ class dataFrame():
         dim_fecha["Year"] = dim_fecha["DepartureDate"].dt.year
         dim_fecha["Month"] = dim_fecha["DepartureDate"].dt.month
         dim_fecha["Day"] = dim_fecha["DepartureDate"].dt.day 
-
-        #print("Dimension fecha:")
-        #print(dim_fecha.head())
 
         return dim_fecha
 

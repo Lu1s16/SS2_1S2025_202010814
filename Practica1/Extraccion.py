@@ -1,10 +1,8 @@
 import pandas as pd 
 
-
 def extraer(ruta):
 
-    try:
-            
+    try: 
 
         #Listado de registros
         df = pd.read_csv(ruta)
