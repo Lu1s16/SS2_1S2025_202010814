@@ -6,7 +6,7 @@
 Para crear el modelo se opto por el estrella ya que esto facilitaba el acceso a los datos para realizar las consutltas.
 
 ## Tabla pasejeros
-Se creo un ID para los datos existentes ya que el tener una llave foranea como entero facilita el acceso a los datos.
+Esta tabla almacenara los datos de cada pasajero. Se creo un ID para los datos existentes ya que el tener una llave foranea como entero facilita el acceso a los datos de cada pasajero.
 
 ## Tabla estados
 Esta tabla almacenara el estado de los vuelos.
@@ -60,5 +60,20 @@ Se tiene una clase dataframe el cual tiene funciones para realizar la transforma
 
 !["modelo"](./Capturas/Carga.png)
 
-Se tiene una clase BD que realiza la conexion a la base de datos y tambien realiza la carga del modelo, eliminar el modelo y tambien realiza las consultas.
+Se tiene una clase BD que realiza la conexion a la base de datos y tambien realiza la carga del modelo, eliminar el modelo y tambien realiza las consultas. Las funciones que tiene son las siguients
 
+* Mostrar_base: Este muestra las tablas que se crean en la base de datos
+
+* Borrar_tablas: Esta funcion ejecuta un script que elimina todo el modelo en la base de datos.
+
+* crear_modelo: Esta funcion ejecuta el script que crea cada una de las tablas para tener el modelo.
+
+Las siguientes funciones son para ejecutar el script que inserta todos los datos de los dataframe de las dimensiones y hechos en sus respectivas tablas.
+
+* def insertar_fechas
+* def insertar_pasajeros
+* def insertar_aeropuertos
+* def insertar_AeropuertosLlegada
+* def insertar_Piloto
+* def insertar_Estado
+* def insertar_Hechos
