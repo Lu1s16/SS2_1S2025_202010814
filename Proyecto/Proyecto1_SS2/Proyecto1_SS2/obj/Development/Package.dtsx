@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="3/9/2025 10:55:56 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-UCSIJH1"
+  DTS:CreatorName="DESKTOP-UCSIJH1\Luis"
+  DTS:DTSID="{0C8D5634-866E-4F5A-8F95-FBAC38411C9C}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5556.0"
+  DTS:LocaleID="22538"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{FD52A84C-FA88-4F9A-847A-1807885BE072}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-UCSIJH1\SQLEXPRESS]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{87285657-A3FD-44D5-AA1A-3F20A8F18568}"
+      DTS:ObjectName="DESKTOP-UCSIJH1\SQLEXPRESS">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-UCSIJH1\SQLEXPRESS;Initial Catalog=SS2_202010814_PR1;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{87285657-A3FD-44D5-AA1A-3F20A8F18568}localhost;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-UCSIJH1\SQLEXPRESS.SS2_202010814_PR1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{700C071D-B8E4-4A6A-9B0E-E1AE8769FEDA}"
+      DTS:ObjectName="DESKTOP-UCSIJH1\SQLEXPRESS.SS2_202010814_PR1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-UCSIJH1\SQLEXPRESS;Initial Catalog=SS2_202010814_PR1;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{700C071D-B8E4-4A6A-9B0E-E1AE8769FEDA}DESKTOP-UCSIJH1\SQLEXPRESS.SS2_202010814_PR1;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SGFood01.comp]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{90BFB0BC-3831-4AE3-B179-A0A92C03F54B}"
+      DTS:ObjectName="SGFood01.comp">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\Luis\Documents\Cursos\Semi2\Laboratorio\Proyecto1\SGFood01.comp" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SGFood01.vent]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{505817F3-B9E9-446C-803D-950416AEB925}"
+      DTS:ObjectName="SGFood01.vent">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\Luis\Documents\Cursos\Semi2\Laboratorio\Proyecto1\SGFood01.vent" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\InsertarCompras"
+      DTS:CreationName="Microsoft.BulkInsertTask"
+      DTS:Description="Tarea Inserción masiva"
+      DTS:DTSID="{4B91D0C9-3496-4E10-81E1-67DA0ED86D70}"
+      DTS:ExecutableType="Microsoft.BulkInsertTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="InsertarCompras"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <BulkInsertTask:BulkInsertTaskData
+          BulkInsertTask:SourceConnectionName="{90BFB0BC-3831-4AE3-B179-A0A92C03F54B}"
+          BulkInsertTask:DestinationConnectionName="{87285657-A3FD-44D5-AA1A-3F20A8F18568}"
+          BulkInsertTask:DestinationTableName="[dbo].[Compras_Temp]"
+          BulkInsertTask:FirstRow="2"
+          BulkInsertTask:FieldTerminator="Vertical Bar {|}"
+          BulkInsertTask:RowTerminator="{CR}" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\InsertarVentas"
+      DTS:CreationName="Microsoft.BulkInsertTask"
+      DTS:Description="Tarea Inserción masiva"
+      DTS:DTSID="{85F1AB04-025C-4F9C-B8D4-5632E703751C}"
+      DTS:ExecutableType="Microsoft.BulkInsertTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="InsertarVentas"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <BulkInsertTask:BulkInsertTaskData
+          BulkInsertTask:SourceConnectionName="{505817F3-B9E9-446C-803D-950416AEB925}"
+          BulkInsertTask:DestinationConnectionName="{87285657-A3FD-44D5-AA1A-3F20A8F18568}"
+          BulkInsertTask:DestinationTableName="[dbo].[Ventas_Temp]"
+          BulkInsertTask:FirstRow="2"
+          BulkInsertTask:FieldTerminator="Vertical Bar {|}"
+          BulkInsertTask:RowTerminator="{CR}" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Pivote SQL"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{DF46C381-01E1-42F5-81E6-69664FF65D71}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Pivote SQL"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{87285657-A3FD-44D5-AA1A-3F20A8F18568}"
+          SQLTask:BypassPrepare="False"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE Compras_Temp;&#xA;TRUNCATE TABLE Ventas_Temp;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción]"
+      DTS:CreationName=""
+      DTS:DTSID="{E9DFD79D-1D21-4F42-AF2B-17B2A8D99B34}"
+      DTS:From="Package\Pivote SQL"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción"
+      DTS:To="Package\InsertarCompras" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{22831CD1-3DBA-4B04-AFF3-79EA6FC5B40C}"
+      DTS:From="Package\InsertarCompras"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 1"
+      DTS:To="Package\InsertarVentas" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="135,42"
+          Id="Package\Pivote SQL"
+          TopLeft="146,55" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\InsertarCompras"
+          TopLeft="131,145" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción]"
+          TopLeft="212.5,97">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,48"
+              Start="0,0"
+              End="0,40.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,40.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="151,42"
+          Id="Package\InsertarVentas"
+          TopLeft="141,227" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 1]"
+          TopLeft="214,187">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40"
+              Start="0,0"
+              End="0,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
