@@ -1,4 +1,6 @@
--- Crear tabla Compras_Temp
+USE SS2_202010814_PR1
+GO
+
 CREATE TABLE Compras_Temp (
     Fecha VARCHAR(50),
     CodProveedor VARCHAR(50),
@@ -18,8 +20,7 @@ CREATE TABLE Compras_Temp (
     Unidades VARCHAR(50),
     CostoU VARCHAR(50)
 );
-
--- Crear tabla Ventas_Temp
+GO
 CREATE TABLE Ventas_Temp (
     Fecha VARCHAR(50),
     CodigoCliente VARCHAR(50),
@@ -42,3 +43,7 @@ CREATE TABLE Ventas_Temp (
     Unidades VARCHAR(50),
     PrecioUnitario VARCHAR(50)
 );
+GO
+
+SELECT * FROM Compras_Temp;
+SELECT * FROM Ventas_Temp;
