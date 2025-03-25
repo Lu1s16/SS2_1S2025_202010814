@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-UCSIJH1\Luis"
   DTS:DTSID="{0C8D5634-866E-4F5A-8F95-FBAC38411C9C}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="16.0.5556.0"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
   DTS:LocaleID="22538"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="77"
-  DTS:VersionGUID="{7A376BD4-7934-4256-BEFF-972D25F838B9}">
+  DTS:VersionBuild="108"
+  DTS:VersionGUID="{971724CB-EC5B-4C42-996F-54BB7AFAEFEA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,7 +30,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Luis\Documents\Cursos\Semi2\Laboratorio\Proyecto1\ArchivosEntrada\SGFood03.comp">
+          DTS:ConnectionString="C:\Users\Ale Garcia\Documents\SS2_1S2025_202010814\Proyecto\ArchivosEntrada\SGFood03.comp">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Fecha"
-              DTS:DTSID="{2629CF3C-5368-4024-B4CC-CF3218827FA3}"
+              DTS:DTSID="{FE31743E-8027-4593-AA5A-4BCA567EBE27}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CodProveedor"
-              DTS:DTSID="{BAE5DCB1-40AB-4AD4-B079-30BD9A2B4EC2}"
+              DTS:DTSID="{91BCD638-4BD2-4540-B9D4-9D0F24388C4D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NombreProveedor"
-              DTS:DTSID="{8670E1CD-93A8-4664-BE97-949C15A3D864}"
+              DTS:DTSID="{87191736-9522-4751-AE47-400035A0D16B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DireccionProveedor"
-              DTS:DTSID="{8BC4BFD3-2D30-4FF3-8482-176A34CDA993}"
+              DTS:DTSID="{5C0F38D6-3763-4DA3-9E12-5CA1FAA07A37}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NumeroProveedor"
-              DTS:DTSID="{1DB3622C-0047-4445-BEB5-468FB01A809B}"
+              DTS:DTSID="{AAA69BCB-E420-446D-9DBF-CF9AD8453338}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="WebProveedor"
-              DTS:DTSID="{C049B16C-B6F3-4B3B-BB4B-70960CE7CAF6}"
+              DTS:DTSID="{C08E3DBA-7450-40C3-AE46-85E202AE5598}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CodProducto"
-              DTS:DTSID="{953EF129-0700-431A-8888-0D96D2A14DDB}"
+              DTS:DTSID="{FB1DCEC5-5F98-41F9-84DA-23AABE0645E5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -102,7 +102,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NombreProducto"
-              DTS:DTSID="{28EA55D9-EE6B-4C13-977D-B651C597292E}"
+              DTS:DTSID="{5AB0350B-5BB8-4689-A39B-D1302EDCD4CD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -111,7 +111,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MarcaProducto"
-              DTS:DTSID="{AE56D30D-F22C-471E-A8B6-93FDE6E9427A}"
+              DTS:DTSID="{AE2A7142-1F75-4930-BB53-4178B6D47DCE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -120,7 +120,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Categoria"
-              DTS:DTSID="{F2C67517-FF9A-449F-BDEA-000C3E8E75D4}"
+              DTS:DTSID="{27E5C882-A497-4107-A9C1-00E0845874EB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -129,7 +129,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SodSuSursal"
-              DTS:DTSID="{37224621-3FF0-471B-BD34-E8A367836AA0}"
+              DTS:DTSID="{76D4B263-2BE9-4F56-A38A-798F9E7C5374}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -138,7 +138,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NombreSucursal"
-              DTS:DTSID="{843F1968-8BE6-4517-9D3C-AB401651DC84}"
+              DTS:DTSID="{5D071524-02E2-4794-87FE-3454C1A86C2F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -147,7 +147,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DireccionSucursal"
-              DTS:DTSID="{C51A80B5-14D8-4F74-83FA-64DE65758242}"
+              DTS:DTSID="{434A9D33-2439-42F9-8DCA-4553152121F7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -156,7 +156,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Region"
-              DTS:DTSID="{DDF088FD-D808-437D-9A49-80CDB52A82CB}"
+              DTS:DTSID="{D2584D05-7DCD-4003-8165-84F90AEF030A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -165,7 +165,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Departamento"
-              DTS:DTSID="{7F5EA0E2-ED4F-4519-8C65-B7758D634360}"
+              DTS:DTSID="{D889F129-92E2-483B-847E-0A694B240DAE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -174,7 +174,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Unidades"
-              DTS:DTSID="{4B59A9DD-88B4-40AD-A86C-8AC75F31F87A}"
+              DTS:DTSID="{D253A9CB-CE75-4729-8B8B-B252828DA5D3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -183,7 +183,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CostoU"
-              DTS:DTSID="{9F3D3C55-B608-4AE5-B212-2D88F784EDA1}"
+              DTS:DTSID="{62DEDD33-D32E-4742-8A0E-0EF366666592}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -198,7 +198,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-UCSIJH1\SQLEXPRESS;Initial Catalog=SS2_202010814_PR1;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{87285657-A3FD-44D5-AA1A-3F20A8F18568}localhost;" />
+          DTS:ConnectionString="Data Source=DESKTOP-BKSGII0\SQLEXPRESS;Initial Catalog=SS2_202010814_PR1;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{87285657-A3FD-44D5-AA1A-3F20A8F18568}localhost;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -210,7 +210,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-UCSIJH1\SQLEXPRESS;Initial Catalog=SS2_202010814_PR1;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{2742DDB9-6C7A-471E-B442-7DC328D852EC}DESKTOP-UCSIJH1\SQLEXPRESS.SS2_202010814_PR1;" />
+          DTS:ConnectionString="Data Source=DESKTOP-BKSGII0\SQLEXPRESS;Initial Catalog=SS2_202010814_PR1;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{2742DDB9-6C7A-471E-B442-7DC328D852EC}DESKTOP-UCSIJH1\SQLEXPRESS.SS2_202010814_PR1;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -222,7 +222,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-UCSIJH1\SQLEXPRESS;Initial Catalog=SS2_202010814_PR1;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-BKSGII0\SQLEXPRESS;Initial Catalog=SS2_202010814_PR1;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{343BEDFE-D8C4-444D-B927-E88FF349EF1A}DESKTOP-UCSIJH1\SQLEXPRESS.SS2_202010814_PR1 1;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -234,7 +234,82 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-UCSIJH1\SQLEXPRESS;Initial Catalog=SS2_202010814_PR1;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-BKSGII0\SQLEXPRESS;Initial Catalog=SS2_202010814_PR1;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{C8364E97-FB8F-400A-9D0E-CEB5A03A6544}DESKTOP-UCSIJH1\SQLEXPRESS.SS2_202010814_PR1 2;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.ss2_202010814_pr1.root]"
+      DTS:CreationName="ADO.NET:System.Data.Odbc.OdbcConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{6AA4121D-2517-433D-8FD4-B1792723C3EB}"
+      DTS:ObjectName="localhost.ss2_202010814_pr1.root">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="server=localhost;uid=root;Dsn=mysql;database=ss2_202010814_pr1;db=ss2_202010814_pr1;no_schema=1;port=3306;user=root;">
+          <DTS:Password
+            DTS:Name="pwd"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnLvy3x7yqUW5zwv0El7uEAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAZe5pvy3Jnsfhlu7iW68ATIdqMUj8cPUysd2PLFvOgYQAAAAAOgAAAAAIAACAAAACqZKfHlnyMNvIXQMWtT4blWExEXZP/0XtUZQJhxdCU+yAAAACtcDZMsfYFLyuBaKQUzIIUru4LikIoO73cA6kNPKfW0kAAAAB82nfoRi+VLAchpatWG93xNIBq4wPCi9AvlMmqykcC/+B7lW0XlLatcjnpFRPwq6OQKrI4oxbikN8WN0wkRORS</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.ss2_202010814_pr1.root 1]"
+      DTS:CreationName="ADO.NET:System.Data.Odbc.OdbcConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{8C242182-FC4D-4E33-A199-79DBDD0D9979}"
+      DTS:ObjectName="localhost.ss2_202010814_pr1.root 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="server=localhost;uid=root;Dsn=mysql;database=ss2_202010814_pr1;db=ss2_202010814_pr1;no_schema=1;port=3306;user=root;">
+          <DTS:Password
+            DTS:Name="password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnLvy3x7yqUW5zwv0El7uEAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA/4ztx2FVIzD4xFkEqP3bgs5OVz20f99ckFp3z6PCHLAAAAAAOgAAAAAIAACAAAAD2gRyaj0TBzm/vDmBUoMEWxcxTQ0WY7rE+2+H/4CP36yAAAACZB4fYMOkYhAPityjoHjkBja09L42Vm/lAT1LaCfIPcUAAAAAs8tviEQccL5bffke2Qw43zEFC+OEXOnvOxt4UDvfMaGLB5luJJQPfyvL3ugd6Lb6rj+0KOIbv/AbJCuXLsNDZ</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.ss2_202010814_pr1.root 2]"
+      DTS:CreationName="ADO.NET:System.Data.Odbc.OdbcConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{C758C7C9-2AF6-490B-B360-7A96B2FB3E60}"
+      DTS:ObjectName="localhost.ss2_202010814_pr1.root 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="server=localhost;uid=root;Dsn=mysql;database=ss2_202010814_pr1;db=ss2_202010814_pr1;no_schema=1;port=3306;user=root;">
+          <DTS:Password
+            DTS:Name="password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnLvy3x7yqUW5zwv0El7uEAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAhiVBVAd1sF1Whm40SSdnkpoMxIMutsVCW7xju7lENlQAAAAAOgAAAAAIAACAAAADoiMMWaltZij11RBjjr2+XFa44Wl4RaLtnFR5GgdxoPSAAAAC+59cUCq7IefYMjW7+/vqsBVv17bPtIub5TNesb5Gm/EAAAAC35R+Hfm08TcPnsYcyjNBjjk/vRFRPm80p2jbpQG8t53i4gla0WnjTMhyEewRmUTFk0to1FYn/TPWVVDqXZEe1</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.ss2_202010814_pr1.root1]"
+      DTS:CreationName="ADO.NET:System.Data.Odbc.OdbcConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{E13107D5-0F6E-47EF-A2BC-3D439DD3CD61}"
+      DTS:ObjectName="localhost.ss2_202010814_pr1.root1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="server=localhost;uid=root;Dsn=proyect;database=ss2_202010814_pr1;db=ss2_202010814_pr1;no_schema=1;port=3306;user=root;">
+          <DTS:Password
+            DTS:Name="password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnLvy3x7yqUW5zwv0El7uEAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADsDQET0atzqa2gKepeTDN6LpoaTL86x/j4KhI68fipIwAAAAAOgAAAAAIAACAAAACKJjnIWNPvyU49XpJumu3LRoAOz4+abFbHrAhkf/7KUCAAAAASpBUtxGg3BSMYUJyZ48MQN5Dg7lbgqnEiRem9sCVG9UAAAADopmOgBVH9CNZ3/oC56ByhXToExBWo9wF9K3J0AXR/+f2vrW3p+krQrZils0imVG2WND50v0bDgerXEpVGJSmf</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[proyect.root]"
+      DTS:CreationName="ADO.NET:System.Data.Odbc.OdbcConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{C98041E0-9EED-4331-AB72-C7EA93382E10}"
+      DTS:ObjectName="proyect.root">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="uid=root;Dsn=proyect;">
+          <DTS:Password
+            DTS:Name="pwd"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnLvy3x7yqUW5zwv0El7uEAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABK213ulMgCAfUYVH6rZIPlT2fTrYo9tz4xi5dxXuQlBAAAAAAOgAAAAAIAACAAAADKws8wYTO1g5ttvNgrviKdI8fx0w8jc25KWPiTMV1YayAAAADHyGpo39r1Jr5u7Jx+Eq2NyXi9J1+O91HuYYuzQa5IV0AAAAATfzEjyRC3MaXdL0mFZ60psNSZwYysVICxDC6PJV9EL6Wf5+uIqZkgrtQtwe2re29zZEXvGpqEJ+R0YXm60W8b</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -271,11 +346,29 @@
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="8"
+      DTS:DTSID="{AF091086-C6E8-4A25-A97B-B5B4C7084B34}"
+      DTS:ObjectName="RutaCompras1">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">C:\Users\Ale Garcia\Documents\SS2_1S2025_202010814\Proyecto\ArchivosEntrada\SGFood01.comp</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
       DTS:DTSID="{09ABB6C3-5D79-46AA-A7F7-1770FDD6380A}"
       DTS:ObjectName="RutaCompras2">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\Users\Luis\Documents\SS2_1S2025_202010814\Proyecto\ArchivosEntrada\SGFood01.comp</DTS:Property>
+        DTS:Name="ParameterValue">C:\Users\Ale Garcia\Documents\SS2_1S2025_202010814\Proyecto\ArchivosEntrada\SGFood02.comp</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{EBC504DA-42F2-4E40-9522-6B8283B256C9}"
+      DTS:ObjectName="RutaVentas1">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">C:\Users\Ale Garcia\Documents\SS2_1S2025_202010814\Proyecto\ArchivosEntrada\SGFood01.vent</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -284,7 +377,7 @@
       DTS:ObjectName="RutaVentas2">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\Users\Luis\Documents\SS2_1S2025_202010814\Proyecto\ArchivosEntrada\SGFood01.vent</DTS:Property>
+        DTS:Name="ParameterValue">C:\Users\Ale Garcia\Documents\SS2_1S2025_202010814\Proyecto\ArchivosEntrada\SGFood02.vent</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -1016,6 +1109,443 @@
                       refId="Package\Tarea Flujo de datos\COMP1.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Tarea Flujo de datos\COMP1.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\COMP2"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consume datos de SQL Server, OLE DB, ODBC u Oracle mediante el correspondiente proveedor de datos de .NET Framework. Se usa una instrucción Transact-SQL para definir el conjunto de resultados. Por ejemplo, se extraen datos de SQL Server con el proveedor de datos de .NET Framework para SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Consume datos de SQL Server, OLE DB, ODBC u Oracle mediante el correspondiente proveedor de datos de .NET Framework. Se usa una instrucción Transact-SQL para definir el conjunto de resultados. Por ejemplo, se extraen datos de SQL Server con el proveedor de datos de .NET Framework para SQL Server."
+              name="COMP2"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Especifica la instrucción SQL utilizada por el componente para extraer datos."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT        Fecha, CodProveedor, NombreProveedor, DireccionProveedor, NumeroProveedor, WebProveedor, CodProducto, NombreProducto, MarcaProducto, Categoria, CodSucursal, NombreSucursal, DireccionSucursal, Region, 
+                         Departamento, Unidades, CostoU
+FROM            temporal_compras</property>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si se debe permitir que columnas externas que no sean de cadenas se conviertan implícitamente en cadenas en las columnas de salida."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
+                  dataType="System.String"
+                  description="Nombre de la tabla de la base de datos de origen."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especificar el modo de recuperar información de columnas externas"
+                  name="AccessMode"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">2</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\COMP2.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.ss2_202010814_pr1.root]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.ss2_202010814_pr1.root]"
+                  description="Administrador de conexiones administrado"
+                  name="IDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET]"
+                  name="Salida de origen de ADO NET">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[Fecha]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[Fecha]"
+                      length="30"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[Fecha]"
+                      name="Fecha"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[CodProveedor]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[CodProveedor]"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[CodProveedor]"
+                      name="CodProveedor"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[NombreProveedor]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[NombreProveedor]"
+                      length="200"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[NombreProveedor]"
+                      name="NombreProveedor"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[DireccionProveedor]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[DireccionProveedor]"
+                      length="300"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[DireccionProveedor]"
+                      name="DireccionProveedor"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[NumeroProveedor]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[NumeroProveedor]"
+                      length="30"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[NumeroProveedor]"
+                      name="NumeroProveedor"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[WebProveedor]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[WebProveedor]"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[WebProveedor]"
+                      name="WebProveedor"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[CodProducto]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[CodProducto]"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[CodProducto]"
+                      name="CodProducto"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[NombreProducto]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[NombreProducto]"
+                      length="200"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[NombreProducto]"
+                      name="NombreProducto"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[MarcaProducto]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[MarcaProducto]"
+                      length="200"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[MarcaProducto]"
+                      name="MarcaProducto"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[Categoria]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[Categoria]"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[Categoria]"
+                      name="Categoria"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[CodSucursal]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[CodSucursal]"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[CodSucursal]"
+                      name="CodSucursal"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[NombreSucursal]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[NombreSucursal]"
+                      length="200"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[NombreSucursal]"
+                      name="NombreSucursal"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[DireccionSucursal]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[DireccionSucursal]"
+                      length="300"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[DireccionSucursal]"
+                      name="DireccionSucursal"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[Region]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[Region]"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[Region]"
+                      name="Region"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[Departamento]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[Departamento]"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[Departamento]"
+                      name="Departamento"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[Unidades]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[Unidades]"
+                      length="12"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[Unidades]"
+                      name="Unidades"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[CostoU]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[CostoU]"
+                      length="30"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].Columns[CostoU]"
+                      name="CostoU"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[Fecha]"
+                      dataType="wstr"
+                      length="30"
+                      name="Fecha" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[CodProveedor]"
+                      dataType="wstr"
+                      length="20"
+                      name="CodProveedor" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[NombreProveedor]"
+                      dataType="wstr"
+                      length="200"
+                      name="NombreProveedor" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[DireccionProveedor]"
+                      dataType="wstr"
+                      length="300"
+                      name="DireccionProveedor" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[NumeroProveedor]"
+                      dataType="wstr"
+                      length="30"
+                      name="NumeroProveedor" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[WebProveedor]"
+                      dataType="wstr"
+                      length="20"
+                      name="WebProveedor" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[CodProducto]"
+                      dataType="wstr"
+                      length="20"
+                      name="CodProducto" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[NombreProducto]"
+                      dataType="wstr"
+                      length="200"
+                      name="NombreProducto" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[MarcaProducto]"
+                      dataType="wstr"
+                      length="200"
+                      name="MarcaProducto" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[Categoria]"
+                      dataType="wstr"
+                      length="100"
+                      name="Categoria" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[CodSucursal]"
+                      dataType="wstr"
+                      length="20"
+                      name="CodSucursal" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[NombreSucursal]"
+                      dataType="wstr"
+                      length="200"
+                      name="NombreSucursal" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[DireccionSucursal]"
+                      dataType="wstr"
+                      length="300"
+                      name="DireccionSucursal" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="100"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[Departamento]"
+                      dataType="wstr"
+                      length="100"
+                      name="Departamento" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[Unidades]"
+                      dataType="wstr"
+                      length="12"
+                      name="Unidades" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET].ExternalColumns[CostoU]"
+                      dataType="wstr"
+                      length="30"
+                      name="CostoU" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de ADO NET">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[Fecha]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[Fecha]"
+                      name="Fecha" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[CodProveedor]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[CodProveedor]"
+                      name="CodProveedor" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[NombreProveedor]"
+                      dataType="wstr"
+                      length="200"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[NombreProveedor]"
+                      name="NombreProveedor" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[DireccionProveedor]"
+                      dataType="wstr"
+                      length="300"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[DireccionProveedor]"
+                      name="DireccionProveedor" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[NumeroProveedor]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[NumeroProveedor]"
+                      name="NumeroProveedor" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[WebProveedor]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[WebProveedor]"
+                      name="WebProveedor" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[CodProducto]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[CodProducto]"
+                      name="CodProducto" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[NombreProducto]"
+                      dataType="wstr"
+                      length="200"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[NombreProducto]"
+                      name="NombreProducto" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[MarcaProducto]"
+                      dataType="wstr"
+                      length="200"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[MarcaProducto]"
+                      name="MarcaProducto" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[Categoria]"
+                      dataType="wstr"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[Categoria]"
+                      name="Categoria" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[CodSucursal]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[CodSucursal]"
+                      name="CodSucursal" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[NombreSucursal]"
+                      dataType="wstr"
+                      length="200"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[NombreSucursal]"
+                      name="NombreSucursal" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[DireccionSucursal]"
+                      dataType="wstr"
+                      length="300"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[DireccionSucursal]"
+                      name="DireccionSucursal" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[Region]"
+                      dataType="wstr"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[Region]"
+                      name="Region" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[Departamento]"
+                      dataType="wstr"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[Departamento]"
+                      name="Departamento" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[Unidades]"
+                      dataType="wstr"
+                      length="12"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[Unidades]"
+                      name="Unidades" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[CostoU]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[CostoU]"
+                      name="CostoU" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2416,9 +2946,15 @@
                 </input>
                 <input
                   refId="Package\Tarea Flujo de datos\Union ALL COMP.Inputs[Entrada de Unión de todo 3]"
-                  dangling="true"
                   hasSideEffects="true"
                   name="Entrada de Unión de todo 3">
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Tarea Flujo de datos\Union ALL COMP.Inputs[Entrada de Unión de todo 4]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Entrada de Unión de todo 4">
                   <externalMetadataColumns />
                 </input>
               </inputs>
@@ -3132,6 +3668,11 @@
               name="Salida de conversión de datos"
               startId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos]" />
             <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de origen de ADO NET]"
+              endId="Package\Tarea Flujo de datos\Union ALL COMP.Inputs[Entrada de Unión de todo 3]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Tarea Flujo de datos\COMP2.Outputs[Salida de origen de ADO NET]" />
+            <path
               refId="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
               endId="Package\Tarea Flujo de datos\Union ALL COMP.Inputs[Entrada de Unión de todo 2]"
               name="Salida de origen de archivo plano"
@@ -3158,7 +3699,7 @@
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Tarea Script"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
@@ -3373,14 +3914,35 @@
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_00bc64c03e2040f39d1f1a7382e25b7b")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_00bc64c03e2040f39d1f1a7382e25b7b")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[
@@ -3508,7 +4070,7 @@ namespace ST_00bc64c03e2040f39d1f1a7382e25b7b
                     "", 0, ref fireAgain);
 
                 // Conexi�n manual con SQL Server utilando ConnectionString y no Connection Manager
-                string connectionString = "Data Source=DESKTOP-UCSIJH1\\SQLEXPRESS; Initial Catalog=SS2_202010814_PR1;Integrated Security=True";
+                string connectionString = "Data Source=DESKTOP-BKSGII0\\SQLEXPRESS; Initial Catalog=SS2_202010814_PR1;Integrated Security=True";
                 Dts.Events.FireInformation(0, "Conexi�n", "Usando conexi�n directa: " + connectionString, "", 0, ref fireAgain);
 
                 sqlConnection = new SqlConnection(connectionString);
@@ -3671,7 +4233,7 @@ namespace ST_00bc64c03e2040f39d1f1a7382e25b7b
     <msb:CodeName>ST_00bc64c03e2040f39d1f1a7382e25b7b</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>ST_00bc64c03e2040f39d1f1a7382e25b7b</msb:DisplayName>
-    <msb:ProjectId>{158E91F9-9283-4D01-A7B6-13E694788C84}</msb:ProjectId>
+    <msb:ProjectId>{35DB58B3-C570-4342-932C-6F2C2D81A421}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="ST_00bc64c03e2040f39d1f1a7382e25b7b.csproj" />
@@ -3713,35 +4275,14 @@ namespace ST_00bc64c03e2040f39d1f1a7382e25b7b.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_00bc64c03e2040f39d1f1a7382e25b7b")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_00bc64c03e2040f39d1f1a7382e25b7b")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -3813,7 +4354,7 @@ namespace ST_00bc64c03e2040f39d1f1a7382e25b7b.Properties {
           <BinaryItem
             Name="ST_00bc64c03e2040f39d1f1a7382e25b7b.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDACGt4GcAAAAAAAAAAOAAIiALATAAAB4AAAAIAAAAAAAAYj0A
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAPkN4mcAAAAAAAAAAOAAIiALATAAAB4AAAAIAAAAAAAAYj0A
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
 ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAABA9AABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -3863,7 +4404,7 @@ BgAhAQAFRwAxAQEAlgCRAMoAmwCRAKsAmwD5AGAGnwARAasBpgARAZ0BBgBBAaMBBgBxAEAFBgCp
 AEAFBgBJAf0ArABJAbEGtQCxAEAFuwDRAEAFBgAIABQA1QAIABgA2gApAHMAQgEuAAsAGgEuABMA
 IwEuABsAQgEuACMASwEuACsAdAEuADMAdAEuADsAdAEuAEMASwEuAEsAegEuAFMAdAEuAFsAkQFD
 AGMA2gBJAHMAQgFhAHsA2gBjAGsA2gAbAAMAAQAEAAMAAAASBQsBAABhARABAAByBhUBAgAEAAMA
-AgAFAAUAAQAGAAUAAgAHAAcABIAAAAEAAAD9I+CEAAAAAAAATwAAAAQAAAAAAAAAAAAAAMMAhQAA
+AgAFAAUAAQAGAAUAAgAHAAcABIAAAAEAAAD+I4yMAAAAAAAATwAAAAQAAAAAAAAAAAAAAMMAhQAA
 AAAAEAAAAAAAAAAAAAAAzACkAwAAAAAEAAAAAAAAAAAAAADDAEMAAAAAAAQAAAAAAAAAAAAAAMMA
 RQQAAAAAEAAAAAAAAAAAAAAAzAAcAAAAAAAAAAAAAQAAAJEFAAAFAAIAAAAAAABUb0ludDMyADxN
 b2R1bGU+AFN5c3RlbS5JTwBNaWNyb3NvZnQuU3FsU2VydmVyLk1hbmFnZWREVFMAdmFsdWVfXwBT
@@ -3903,7 +4444,7 @@ OgBSAHUAdABhAEMAbwBtAHAAcgBhAHMAMgAAKyQAUABhAGMAawBhAGcAZQA6ADoAUgB1AHQAYQBW
 AGUAbgB0AGEAcwAyAAATVgBhAHIAaQBhAGIAbABlAHMAAGVTAGUAcABhAHIAYQBkAG8AcgA6ACAA
 ewAwAH0ALAAgAFQAZQByAG0AaQBuAGEAZABvAHIAOgAgAHsAMQB9ACwAIABQAHIAaQBtAGUAcgBh
 AEwAaQBuAGUAYQA6ACAAewAyAH0AAAEAgMVEAGEAdABhACAAUwBvAHUAcgBjAGUAPQBEAEUAUwBL
-AFQATwBQAC0AVQBDAFMASQBKAEgAMQBcAFMAUQBMAEUAWABQAFIARQBTAFMAOwAgAEkAbgBpAHQA
+AFQATwBQAC0AQgBLAFMARwBJAEkAMABcAFMAUQBMAEUAWABQAFIARQBTAFMAOwAgAEkAbgBpAHQA
 aQBhAGwAIABDAGEAdABhAGwAbwBnAD0AUwBTADIAXwAyADAAMgAwADEAMAA4ADEANABfAFAAUgAx
 ADsASQBuAHQAZQBnAHIAYQB0AGUAZAAgAFMAZQBjAHUAcgBpAHQAeQA9AFQAcgB1AGUAARFDAG8A
 bgBlAHgAaQD9/24AATNVAHMAYQBuAGQAbwAgAGMAbwBuAGUAeABpAP3/bgAgAGQAaQByAGUAYwB0
@@ -3938,7 +4479,7 @@ IAByAGUAZwBpAHMAdAByAG8AcwAgAGUAbgAgAFYAZQBuAHQAYQBzAF8AVABlAG0AcAA6ACAAewAw
 AH0AADdFAHIAcgBvAHIAOgAgAHsAMAB9AAoAUwB0AGEAYwBrACAAVAByAGEAYwBlADoAIAB7ADEA
 fQAAH0UAcgByAG8AcgAgAGUAbgAgAFMAYwByAGkAcAB0AABxUwBUAF8AMAAwAGIAYwA2ADQAYwAw
 ADMAZQAyADAANAAwAGYAMwA5AGQAMQBmADEAYQA3ADMAOAAyAGUAMgA1AGIANwBiAC4AUAByAG8A
-cABlAHIAdABpAGUAcwAuAFIAZQBzAG8AdQByAGMAZQBzAAAAAJ43+7Q7NZZGm/ugcGyACKEABCAB
+cABlAHIAdABpAGUAcwAuAFIAZQBzAG8AdQByAGMAZQBzAAAAANYPBnpnX5FBjPkxdiL4V3EABCAB
 AQgDIAABBSABARERBCABAQ4FIAEBEWEbBxISPRJBDg4IDg4CDg4SRRJFEkUIEkUIEkkOBCAAEnEE
 IAASdQUgARJ5HAMgABwFIAASgIUHAAQODhwcHAogBgEIDg4OCBACBQACDg4OBAABAg4FAAIODhwI
 IAUCCA4ODggFIAIODg4GAAIODh0cBiACAQ4SPQMgAAgEAAEIHAMgAA4GAAMODhwcBSAAEYCdCAAB
@@ -3957,14 +4498,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA
 EAAAABgAAIAAAAAAAAAAAAAAAAAAAAEAAQAAADAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAEgAAABY
 QAAAGgQAAAAAAAAAAAAAGgQ0AAAAVgBTAF8AVgBFAFIAUwBJAE8ATgBfAEkATgBGAE8AAAAAAL0E
-7/4AAAEAAAABAOCE/SMAAAEA4IT9Iz8AAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAABEAAAAAQBW
+7/4AAAEAAAABAIyM/iMAAAEAjIz+Iz8AAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAABEAAAAAQBW
 AGEAcgBGAGkAbABlAEkAbgBmAG8AAAAAACQABAAAAFQAcgBhAG4AcwBsAGEAdABpAG8AbgAAAAAA
 AACwBHoDAAABAFMAdAByAGkAbgBnAEYAaQBsAGUASQBuAGYAbwAAAFYDAAABADAAMAAwADAAMAA0
 AGIAMAAAABoAAQABAEMAbwBtAG0AZQBuAHQAcwAAAAAAAAAiAAEAAQBDAG8AbQBwAGEAbgB5AE4A
 YQBtAGUAAAAAAAAAAABwACQAAQBGAGkAbABlAEQAZQBzAGMAcgBpAHAAdABpAG8AbgAAAAAAUwBU
 AF8AMAAwAGIAYwA2ADQAYwAwADMAZQAyADAANAAwAGYAMwA5AGQAMQBmADEAYQA3ADMAOAAyAGUA
 MgA1AGIANwBiAAAAPgAPAAEARgBpAGwAZQBWAGUAcgBzAGkAbwBuAAAAAAAxAC4AMAAuADkAMgAx
-ADMALgAzADQAMAAxADYAAAAAAHAAKAABAEkAbgB0AGUAcgBuAGEAbABOAGEAbQBlAAAAUwBUAF8A
+ADQALgAzADUAOQA4ADAAAAAAAHAAKAABAEkAbgB0AGUAcgBuAGEAbABOAGEAbQBlAAAAUwBUAF8A
 MAAwAGIAYwA2ADQAYwAwADMAZQAyADAANAAwAGYAMwA5AGQAMQBmADEAYQA3ADMAOAAyAGUAMgA1
 AGIANwBiAC4AZABsAGwAAABIABIAAQBMAGUAZwBhAGwAQwBvAHAAeQByAGkAZwBoAHQAAABDAG8A
 cAB5AHIAaQBnAGgAdAAgAEAAIAAgADIAMAAyADUAAAAqAAEAAQBMAGUAZwBhAGwAVAByAGEAZABl
@@ -3973,8 +4514,8 @@ AABTAFQAXwAwADAAYgBjADYANABjADAAMwBlADIAMAA0ADAAZgAzADkAZAAxAGYAMQBhADcAMwA4
 ADIAZQAyADUAYgA3AGIALgBkAGwAbAAAAGgAJAABAFAAcgBvAGQAdQBjAHQATgBhAG0AZQAAAAAA
 UwBUAF8AMAAwAGIAYwA2ADQAYwAwADMAZQAyADAANAAwAGYAMwA5AGQAMQBmADEAYQA3ADMAOAAy
 AGUAMgA1AGIANwBiAAAAQgAPAAEAUAByAG8AZAB1AGMAdABWAGUAcgBzAGkAbwBuAAAAMQAuADAA
-LgA5ADIAMQAzAC4AMwA0ADAAMQA2AAAAAABGAA8AAQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBz
-AGkAbwBuAAAAMQAuADAALgA5ADIAMQAzAC4AMwA0ADAAMQA2AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+LgA5ADIAMQA0AC4AMwA1ADkAOAAwAAAAAABGAA8AAQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBz
+AGkAbwBuAAAAMQAuADAALgA5ADIAMQA0AC4AMwA1ADkAOAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -3995,6 +4536,1009 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Tarea Script 1"
+      DTS:CreationName="Microsoft.ScriptTask"
+      DTS:Description="Tarea Script"
+      DTS:DTSID="{69061A83-D7F6-4F5A-B0C0-9BE46C797379}"
+      DTS:ExecutableType="Microsoft.ScriptTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarea Script 1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ScriptProject
+          Name="ST_6879823039c64f1c832cdf2114a766da"
+          VSTAMajorVersion="16"
+          VSTAMinorVersion="0"
+          Language="CSharp"
+          ReadOnlyVariables="$Package::PrimeraLinea,$Package::RutaCompras1,$Package::RutaVentas1,$Package::Separador,$Package::Terminator">
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Resources.resx"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></ProjectItem>
+          <ProjectItem
+            Name="packages.config"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <package id="BouncyCastle.Cryptography" version="2.3.1" targetFramework="net472" />
+</packages>]]></ProjectItem>
+          <ProjectItem
+            Name="ScriptMain.cs"
+            Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
+/* The Script Task allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services control flow. 
+ * 
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script task. */
+#endregion
+
+
+#region Namespaces
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Runtime;
+using MySql.Data.MySqlClient;
+using System.Windows.Forms;
+using System.IO;
+using System.Data.Odbc;
+#endregion
+
+namespace ST_6879823039c64f1c832cdf2114a766da
+{
+    /// <summary>
+    /// ScriptMain is the entry point class of the script.  Do not change the name, attributes,
+    /// or parent of this class.
+    /// </summary>
+	[Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
+	public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
+	{
+        #region Help:  Using Integration Services variables and parameters in a script
+        /* To use a variable in this script, first ensure that the variable has been added to 
+         * either the list contained in the ReadOnlyVariables property or the list contained in 
+         * the ReadWriteVariables property of this script task, according to whether or not your
+         * code needs to write to the variable.  To add the variable, save this script, close this instance of
+         * Visual Studio, and update the ReadOnlyVariables and 
+         * ReadWriteVariables properties in the Script Transformation Editor window.
+         * To use a parameter in this script, follow the same steps. Parameters are always read-only.
+         * 
+         * Example of reading from a variable:
+         *  DateTime startTime = (DateTime) Dts.Variables["System::StartTime"].Value;
+         * 
+         * Example of writing to a variable:
+         *  Dts.Variables["User::myStringVariable"].Value = "new value";
+         * 
+         * Example of reading from a package parameter:
+         *  int batchId = (int) Dts.Variables["$Package::batchId"].Value;
+         *  
+         * Example of reading from a project parameter:
+         *  int batchId = (int) Dts.Variables["$Project::batchId"].Value;
+         * 
+         * Example of reading from a sensitive project parameter:
+         *  int batchId = (int) Dts.Variables["$Project::batchId"].GetSensitiveValue();
+         * */
+
+        #endregion
+
+        #region Help:  Firing Integration Services events from a script
+        /* This script task can fire events for logging purposes.
+         * 
+         * Example of firing an error event:
+         *  Dts.Events.FireError(18, "Process Values", "Bad value", "", 0);
+         * 
+         * Example of firing an information event:
+         *  Dts.Events.FireInformation(3, "Process Values", "Processing has started", "", 0, ref fireAgain)
+         * 
+         * Example of firing a warning event:
+         *  Dts.Events.FireWarning(14, "Process Values", "No values received for input", "", 0);
+         * */
+        #endregion
+
+        #region Help:  Using Integration Services connection managers in a script
+        /* Some types of connection managers can be used in this script task.  See the topic 
+         * "Working with Connection Managers Programatically" for details.
+         * 
+         * Example of using an ADO.Net connection manager:
+         *  object rawConnection = Dts.Connections["Sales DB"].AcquireConnection(Dts.Transaction);
+         *  SqlConnection myADONETConnection = (SqlConnection)rawConnection;
+         *  //Use the connection in some code here, then release the connection
+         *  Dts.Connections["Sales DB"].ReleaseConnection(rawConnection);
+         *
+         * Example of using a File connection manager
+         *  object rawConnection = Dts.Connections["Prices.zip"].AcquireConnection(Dts.Transaction);
+         *  string filePath = (string)rawConnection;
+         *  //Use the connection in some code here, then release the connection
+         *  Dts.Connections["Prices.zip"].ReleaseConnection(rawConnection);
+         * */
+        #endregion
+
+
+		/// <summary>
+        /// This method is called when this script task executes in the control flow.
+        /// Before returning from this method, set the value of Dts.TaskResult to indicate success or failure.
+        /// To open Help, press F1.
+        /// </summary>
+		public void Main()
+		{
+			// TODO: Add your code here
+            try
+            {
+                string Separador = (string)Dts.Variables["$Package::Separador"].Value;
+                string terminador = (string)Dts.Variables["$Package::Terminator"].Value;
+                int primeraLinea = (int)Dts.Variables["$Package::PrimeraLinea"].Value;
+                string rutaCompras1 = (string)Dts.Variables["$Package::RutaCompras1"].Value;
+                string rutaVentas1 = (string)Dts.Variables["$Package::RutaVentas1"].Value;
+
+                
+
+                
+                OdbcConnection dbConnection = null;
+                dbConnection = (OdbcConnection)(Dts.Connections["localhost.ss2_202010814_pr1.root1"].AcquireConnection(Dts.Transaction) as OdbcConnection);
+
+                int contador = 0;
+                string linea = "";
+
+
+                System.IO.StreamReader SourceFile = new System.IO.StreamReader(rutaCompras1);
+
+                while ((linea = SourceFile.ReadLine()) != null)
+                {
+                    if (contador > 0) // Saltarse el header
+                    {
+                        // Obtener valores
+                        string[] campos = linea.Split(Separador.ToCharArray()[0]);
+
+                        // Query para insertar en la tabla temporal_compras
+                        string query = @"INSERT INTO temporal_compras (
+            Fecha, CodProveedor, NombreProveedor, DireccionProveedor, NumeroProveedor, WebProveedor, 
+            CodProducto, NombreProducto, MarcaProducto, Categoria, CodSucursal, NombreSucursal, 
+            DireccionSucursal, Region, Departamento, Unidades, CostoU) 
+            VALUES (
+            ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
+                        using (OdbcCommand myCommand = new OdbcCommand(query, dbConnection))
+                        {
+                            // Agregar parámetros y valores
+                            myCommand.Parameters.AddWithValue("@Fecha", campos[0]);
+                            myCommand.Parameters.AddWithValue("@CodProveedor", campos[1]);
+                            myCommand.Parameters.AddWithValue("@NombreProveedor", campos[2]);
+                            myCommand.Parameters.AddWithValue("@DireccionProveedor", campos[3]);
+                            myCommand.Parameters.AddWithValue("@NumeroProveedor", campos[4]);
+                            myCommand.Parameters.AddWithValue("@WebProveedor", campos[5]);
+                            myCommand.Parameters.AddWithValue("@CodProducto", campos[6]);
+                            myCommand.Parameters.AddWithValue("@NombreProducto", campos[7]);
+                            myCommand.Parameters.AddWithValue("@MarcaProducto", campos[8]);
+                            myCommand.Parameters.AddWithValue("@Categoria", campos[9]);
+                            myCommand.Parameters.AddWithValue("@CodSucursal", campos[10]);
+                            myCommand.Parameters.AddWithValue("@NombreSucursal", campos[11]);
+                            myCommand.Parameters.AddWithValue("@DireccionSucursal", campos[12]);
+                            myCommand.Parameters.AddWithValue("@Region", campos[13]);
+                            myCommand.Parameters.AddWithValue("@Departamento", campos[14]);
+                            myCommand.Parameters.AddWithValue("@Unidades", campos[15]);
+                            myCommand.Parameters.AddWithValue("@CostoU", campos[16]);
+
+                            // Ejecutar la consulta
+                            myCommand.ExecuteNonQuery();
+                        }
+                    }
+                    contador++;
+                }
+                SourceFile.Close();
+
+                //leer ventas
+                contador = 0;
+                linea = "";
+                string tablaDestinoVent = "temporal_ventas";
+
+                System.IO.StreamReader SourceFile2 = new System.IO.StreamReader(rutaVentas1);
+
+                while ((linea = SourceFile2.ReadLine()) != null)
+                {
+                    if (contador > 0) // saltarse el header
+                    {
+                        // obtener valores
+                        string[] campos = linea.Split(Separador.ToCharArray()[0]);
+
+                        // insertar a la tabla temporal ventas
+                        string query = "INSERT INTO " + tablaDestinoVent + @"(Fecha
+                            ,CodigoCliente
+                            ,NombreCliente
+                            ,TipoCliente
+                            ,DireccionCliente
+                            ,NumeroCliente
+                            ,CodVendedor
+                            ,NombreVendedor
+                            ,Vacacionista
+                            ,CodProducto
+                            ,NombreProducto
+                            ,MarcaProducto
+                            ,Categoria
+                            ,CodSucursal
+                            ,NombreSucursal
+                            ,DireccionSucursal
+                            ,Region
+                            ,Departamento
+                            ,Unidades
+                            ,PrecioUnitario) 
+                            VALUES (
+                            @Fecha
+                            ,@CodigoCliente
+                            ,@NombreCliente
+                            ,@TipoCliente
+                            ,@DireccionCliente
+                            ,@NumeroCliente
+                            ,@CodVendedor
+                            ,@NombreVendedor
+                            ,@Vacacionista
+                            ,@CodProducto
+                            ,@NombreProducto
+                            ,@MarcaProducto
+                            ,@Categoria
+                            ,@CodSucursal
+                            ,@NombreSucursal
+                            ,@DireccionSucursal
+                            ,@Region
+                            ,@Departamento
+                            ,@Unidades
+                            ,@PrecioUnitario)";
+
+                        using (OdbcCommand myCommand = new OdbcCommand(query, dbConnection))
+                        {
+                            // agregar paramatros y valores
+                            myCommand.Parameters.AddWithValue("@Fecha", campos[0]);
+                            myCommand.Parameters.AddWithValue("@CodigoCliente", campos[1]);
+                            myCommand.Parameters.AddWithValue("@NombreCliente", campos[2]);
+                            myCommand.Parameters.AddWithValue("@TipoCliente", campos[3]);
+                            myCommand.Parameters.AddWithValue("@DireccionCliente", campos[4]);
+                            myCommand.Parameters.AddWithValue("@NumeroCliente", campos[5]);
+                            myCommand.Parameters.AddWithValue("@CodVendedor", campos[6]);
+                            myCommand.Parameters.AddWithValue("@NombreVendedor", campos[7]);
+                            myCommand.Parameters.AddWithValue("@Vacacionista", campos[8]);
+                            myCommand.Parameters.AddWithValue("@CodProducto", campos[9]);
+                            myCommand.Parameters.AddWithValue("@NombreProducto", campos[10]);
+                            myCommand.Parameters.AddWithValue("@MarcaProducto", campos[11]);
+                            myCommand.Parameters.AddWithValue("@Categoria", campos[12]);
+                            myCommand.Parameters.AddWithValue("@CodSucursal", campos[13]);
+                            myCommand.Parameters.AddWithValue("@NombreSucursal", campos[14]);
+                            myCommand.Parameters.AddWithValue("@DireccionSucursal", campos[15]);
+                            myCommand.Parameters.AddWithValue("@Region", campos[16]);
+                            myCommand.Parameters.AddWithValue("@Departamento", campos[17]);
+                            myCommand.Parameters.AddWithValue("@Unidades", campos[18]);
+                            myCommand.Parameters.AddWithValue("@PrecioUnitario", campos[19]);
+
+                            // ejecutar
+                            myCommand.ExecuteNonQuery();
+                        }
+                    }
+                    contador++;
+                }
+                SourceFile2.Close();
+
+
+
+
+                Dts.TaskResult = (int)ScriptResults.Success;
+            }
+            catch (Exception ex)
+            {
+                // Manejo de errores com�n en un bloque try-catch agregando retornar el resultado de la tarea (Failure)
+                string errorMessage = string.Format("Error: {0}\nStack Trace: {1}", ex.Message, ex.StackTrace);
+                Dts.Events.FireError(0, "Error en Script", errorMessage, "", 0);
+                Dts.TaskResult = (int)ScriptResults.Failure;
+
+            }
+
+            
+		}
+
+        #region ScriptResults declaration
+        /// <summary>
+        /// This enum provides a convenient shorthand within the scope of this class for setting the
+        /// result of the script.
+        /// 
+        /// This code was generated automatically.
+        /// </summary>
+        enum ScriptResults
+        {
+            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
+            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
+        };
+        #endregion
+
+	}
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Resources.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_6879823039c64f1c832cdf2114a766da.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_6879823039c64f1c832cdf2114a766da.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_6879823039c64f1c832cdf2114a766da.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace ST_6879823039c64f1c832cdf2114a766da.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_6879823039c64f1c832cdf2114a766da.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Project"
+            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_6879823039c64f1c832cdf2114a766da</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_6879823039c64f1c832cdf2114a766da</msb:DisplayName>
+    <msb:ProjectId>{DC9E1391-AF00-45BD-B467-7BD9C8F5B330}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_6879823039c64f1c832cdf2114a766da.csproj" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="packages.config" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_6879823039c64f1c832cdf2114a766da.Properties.Settings.get_Default():ST_6879823039c64f1c832cdf2114a766da.Properties.Sett" +
+    "ings")]
+
+namespace ST_6879823039c64f1c832cdf2114a766da.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_6879823039c64f1c832cdf2114a766da")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_6879823039c64f1c832cdf2114a766da")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="ST_6879823039c64f1c832cdf2114a766da.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B6349DF-DC89-43A6-BDDD-3EA34D373F5C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_6879823039c64f1c832cdf2114a766da</RootNamespace>
+    <AssemblyName>ST_6879823039c64f1c832cdf2114a766da</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\BouncyCastle.Cryptography.2.3.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.26.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\Google.Protobuf.3.26.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.2.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\MySql.Data.9.2.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="ZstdSharp, Version=0.8.0.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Ale Garcia\AppData\Local\Temp\Vsta\SSIS_ST160\VstajN08b__E__HkyyrCREWUILyw\packages\ZstdSharp.Port.0.8.0\lib\net462\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST160</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
+          <BinaryItem
+            Name="ST_6879823039c64f1c832cdf2114a766da.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAJkj4mcAAAAAAAAAAOAAIiALATAAACwAAAAIAAAAAAAAHksA
+AAAgAAAAYAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACgAAAAAgAAAAAAAAMAYIUAABAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAMxKAABPAAAAAGAAAHgEAAAAAAAAAAAAAAAAAAAA
+AAAAAIAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAJCsAAAAgAAAALAAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAHgEAAAAYAAAAAYAAAAuAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAIAAAAACAAAANAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAAA
+SwAAAAAAAEgAAAACAAUAcCYAAKQjAAABAAAAAAAAABRKAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAABswBgBfBQAAAQAAEQIoEAAACm8RAAAKcgEAAHBvEgAACm8T
+AAAKdB8AAAEKAigQAAAKbxEAAApyKQAAcG8SAAAKbxMAAAp0HwAAASYCKBAAAApvEQAACnJTAABw
+bxIAAApvEwAACqUgAAABJgIoEAAACm8RAAAKcoEAAHBvEgAACm8TAAAKdB8AAAECKBAAAApvEQAA
+CnKvAABwbxIAAApvEwAACnQfAAABCxQMAigQAAAKbxQAAApy2wAAcG8VAAAKAigQAAAKbxYAAApv
+FwAACnUPAAABDBYNch8BAHATBHMYAAAKEwU4xgEAAAkWPrsBAAARBBeNIwAAASUWBm8ZAAAKFpOd
+bxoAAAoTCHIhAQBwCHMbAAAKEwkRCW8cAAAKcjAEAHARCBaabx0AAAomEQlvHAAACnI+BABwEQgX
+mm8dAAAKJhEJbxwAAApyWgQAcBEIGJpvHQAACiYRCW8cAAAKcnwEAHARCBmabx0AAAomEQlvHAAA
+CnKkBABwEQgamm8dAAAKJhEJbxwAAApyxgQAcBEIG5pvHQAACiYRCW8cAAAKcuIEAHARCByabx0A
+AAomEQlvHAAACnL8BABwEQgdmm8dAAAKJhEJbxwAAApyHAUAcBEIHppvHQAACiYRCW8cAAAKcjoF
+AHARCB8Jmm8dAAAKJhEJbxwAAApyUAUAcBEIHwqabx0AAAomEQlvHAAACnJqBQBwEQgfC5pvHQAA
+CiYRCW8cAAAKcooFAHARCB8Mmm8dAAAKJhEJbxwAAApysAUAcBEIHw2abx0AAAomEQlvHAAACnLA
+BQBwEQgfDppvHQAACiYRCW8cAAAKctwFAHARCB8Pmm8dAAAKJhEJbxwAAApy8AUAcBEIHxCabx0A
+AAomEQlvHgAACibeDBEJLAcRCW8fAAAK3AkXWA0RBW8gAAAKJRMEOiv+//8RBW8hAAAKFg1yHwEA
+cBMEcgAGAHATBgdzGAAAChMHOBcCAAAJFj4MAgAAEQQXjSMAAAElFgZvGQAAChaTnW8aAAAKEwpy
+IAYAcBEGcjoGAHAoIgAACghzGwAAChMLEQtvHAAACnIwBABwEQoWmm8dAAAKJhELbxwAAApy3RMA
+cBEKF5pvHQAACiYRC28cAAAKcvsTAHARChiabx0AAAomEQtvHAAACnIZFABwEQoZmm8dAAAKJhEL
+bxwAAApyMxQAcBEKGppvHQAACiYRC28cAAAKclcUAHARChuabx0AAAomEQtvHAAACnJ1FABwEQoc
+mm8dAAAKJhELbxwAAApyjxQAcBEKHZpvHQAACiYRC28cAAAKcq8UAHARCh6abx0AAAomEQtvHAAA
+CnLiBABwEQofCZpvHQAACiYRC28cAAAKcvwEAHARCh8Kmm8dAAAKJhELbxwAAApyHAUAcBEKHwua
+bx0AAAomEQtvHAAACnI6BQBwEQofDJpvHQAACiYRC28cAAAKclAFAHARCh8Nmm8dAAAKJhELbxwA
+AApyagUAcBEKHw6abx0AAAomEQtvHAAACnKKBQBwEQofD5pvHQAACiYRC28cAAAKcrAFAHARCh8Q
+mm8dAAAKJhELbxwAAApywAUAcBEKHxGabx0AAAomEQtvHAAACnLcBQBwEQofEppvHQAACiYRC28c
+AAAKcssUAHARCh8Tmm8dAAAKJhELbx4AAAom3gwRCywHEQtvHwAACtwJF1gNEQdvIAAACiUTBDra
+/f//EQdvIQAACgIoEAAAChZvIwAACt5JEwxy6xQAcBEMbyQAAAoRDG8lAAAKKCYAAAoTDQIoEAAA
+Cm8nAAAKFnIjFQBwEQ1yHwEAcBZvKAAACiYCKBAAAAoXbyMAAAreACoAQUwAAAIAAAAPAQAAiAEA
+AJcCAAAMAAAAAAAAAAIAAAAUAwAAzQEAAOEEAAAMAAAAAAAAAAAAAAAAAAAAFQUAABUFAABJAAAA
+EgAAAR4CKCkAAAoqHgIoKgAACiqufgEAAAQtHnJDFQBw0AMAAAIoKwAACm8sAAAKcy0AAAqAAQAA
+BH4BAAAEKhp+AgAABCoeAoACAAAEKhp+AwAABCoeAiguAAAKKi5zCAAABoADAAAEKgAAQlNKQgEA
+AQAAAAAADAAAAHY0LjAuMzAzMTkAAAAABQBsAAAAnAQAACN+AAAIBQAABAcAACNTdHJpbmdzAAAA
+AAwMAAC4FQAAI1VTAMQhAAAQAAAAI0dVSUQAAADUIQAA0AEAACNCbG9iAAAAAAAAAAIAAAFXHaIB
+CQMAAAD6ATMAFgAAAQAAACwAAAAFAAAABgAAAAkAAAABAAAALgAAAAIAAAAQAAAAAQAAAAIAAAAD
+AAAABAAAAAEAAAAFAAAAAQAAAAEAAAAAAAEEAQAAAAAABgCmApIFBgA1A5IFBgDyAX8FDwAGBgAA
+BgAfAo8EBgCJAo8EBgBqAo8EBgAcA48EBgDGAo8EBgDfAo8EBgA2Ao8EBgBRAnADCgD6ArADCgBj
+AbADDgC5BHoABgAIBRAADgCVAHoABgDaBDIEBgA5BDIEBgDVAX8FBgCxBjIEBgAkBbIFBgD3BGoE
+EgClAesDEgAGAusDEgB/AVUEBgC6AZIFCgDZA7ADFgBIBgUBFgDMAAUBBgCKAzIEBgABADIEFgBf
+BgUBFgA0BQUBBgADBTIEDgChBHoADgBaBXoADgCLAOQEBgDVADIEBgAVBRAACgBGBbADBgAuATIE
+BgDhADIEBgDpBo8EAAAAAAcAAAAAAAEAAQABABAASgRBADkAAQABAAAAEAC5BRUGVQABAAMAAAEQ
+AFIGFQZpAAMABwADAQAAigYAAE0ABAAKABEAPgTTABEAUwHXABEAsADbAAYGOQDfAFaAegbiAFaA
+MwHiAFAgAAAAAIYAUAQGAAEACCYAAAAAhhhyBQYAAQAQJgAAAACDGHIFBgABABgmAAAAAJMIIAXm
+AAEARCYAAAAAkwg7AesAAQBLJgAAAACTCEcB8AABAFMmAAAAAJYIvgb2AAIAWiYAAAAAhhhyBQYA
+AgBiJgAAAACRGHgF+wACAAAAAQBqAwkAcgUBABEAcgUGABkAcgUKACkAcgUQADEAcgUQADkAcgUQ
+AEEAcgUQAEkAcgUQAFEAcgUQAFkAcgUQAGEAcgUQAGkAcgUGAKEAcgUGAMkAcgUVANkAcgUGAHEA
+ggY0AOEARAY5AOkAKQQ+APEAUwNEAOEAWwZIAAkBKQROAOEAfwREABEByARVAIEAcgUQAPkA2QZa
+APkAuAZfAIkAcgVmAIkAawZtACEBXQNzADEB8gZ7ADkBnQEGAEEBJQF/AEEBlwEGAPkAowaDAOEA
+ygYBAJEAwAB/AJEAoQB/APkAqgaKAOEAmAaRAEkBaAWXAHEAcgUGAKkAcgUGAFEB8wCgAFEB5Qap
+ALEAcgWvANEAcgUGAAgAFADJAAgAGADOACkAcwA2AS4ACwAOAS4AEwAXAS4AGwA2AS4AIwA/AS4A
+KwBoAS4AMwBoAS4AOwBoAS4AQwA/AS4ASwBuAS4AUwBoAS4AWwCFAUMAYwDOAEkAcwA2AWEAewDO
+AGMAawDOABsAAwABAAQAAwAAACQF/wAAAFsBBAEAAMIGCQECAAQAAwACAAUABQABAAYABQACAAcA
+BwAEgAAAAQAAAP4jXJcAAAAAAABBAAAABAAAAAAAAAAAAAAAtwBxAAAAAAAQAAAAAAAAAAAAAADA
+AJEDAAAAAAQAAAAAAAAAAAAAALcAZQAAAAAABAAAAAAAAAAAAAAAtwAyBAAAAAAQAAAAAAAAAAAA
+AADAABoAAAAAAAAAAAABAAAAwwUAAAUAAgAAAABJbnQzMgA8TW9kdWxlPgBTeXN0ZW0uSU8ATWlj
+cm9zb2Z0LlNxbFNlcnZlci5NYW5hZ2VkRFRTAHZhbHVlX18AU1RfNjg3OTgyMzAzOWM2NGYxYzgz
+MmNkZjIxMTRhNzY2ZGEAU3lzdGVtLkRhdGEAbXNjb3JsaWIAU3lzdGVtLkRhdGEuT2RiYwBEYkNv
+bW1hbmQAT2RiY0NvbW1hbmQAZ2V0X1N0YWNrVHJhY2UAZGVmYXVsdEluc3RhbmNlAGdldF9NZXNz
+YWdlAFZhcmlhYmxlAElEaXNwb3NhYmxlAFJ1bnRpbWVUeXBlSGFuZGxlAEdldFR5cGVGcm9tSGFu
+ZGxlAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuRHRzLlJ1bnRpbWUAUmVhZExpbmUAVHlwZQBGYWlsdXJl
+AGdldF9DdWx0dXJlAHNldF9DdWx0dXJlAHJlc291cmNlQ3VsdHVyZQBWU1RBUlRTY3JpcHRPYmpl
+Y3RNb2RlbEJhc2UAQXBwbGljYXRpb25TZXR0aW5nc0Jhc2UAQ2xvc2UARGlzcG9zZQBFZGl0b3JC
+cm93c2FibGVTdGF0ZQBDb21waWxlckdlbmVyYXRlZEF0dHJpYnV0ZQBEZWJ1Z2dlck5vblVzZXJD
+b2RlQXR0cmlidXRlAERlYnVnZ2FibGVBdHRyaWJ1dGUARWRpdG9yQnJvd3NhYmxlQXR0cmlidXRl
+AEFzc2VtYmx5VGl0bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFkZW1hcmtBdHRyaWJ1dGUAVGFyZ2V0
+RnJhbWV3b3JrQXR0cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlvbkF0dHJpYnV0ZQBBc3NlbWJs
+eURlc2NyaXB0aW9uQXR0cmlidXRlAENvbXBpbGF0aW9uUmVsYXhhdGlvbnNBdHRyaWJ1dGUAQXNz
+ZW1ibHlQcm9kdWN0QXR0cmlidXRlAEFzc2VtYmx5Q29weXJpZ2h0QXR0cmlidXRlAFNTSVNTY3Jp
+cHRUYXNrRW50cnlQb2ludEF0dHJpYnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUAUnVudGlt
+ZUNvbXBhdGliaWxpdHlBdHRyaWJ1dGUAZ2V0X1ZhbHVlAEFkZFdpdGhWYWx1ZQB2YWx1ZQBTeXN0
+ZW0uUnVudGltZS5WZXJzaW9uaW5nAFN0cmluZwBNaWNyb3NvZnQuU3FsU2VydmVyLlNjcmlwdFRh
+c2sATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuVGFza3MuU2NyaXB0VGFzawBTY3JpcHRPYmplY3RN
+b2RlbABTeXN0ZW0uQ29tcG9uZW50TW9kZWwAU1RfNjg3OTgyMzAzOWM2NGYxYzgzMmNkZjIxMTRh
+NzY2ZGEuZGxsAGdldF9JdGVtAFN5c3RlbQBFbnVtAHJlc291cmNlTWFuAFNjcmlwdE1haW4AU3lz
+dGVtLkNvbmZpZ3VyYXRpb24AU3lzdGVtLkdsb2JhbGl6YXRpb24AZ2V0X1RyYW5zYWN0aW9uAFN5
+c3RlbS5SZWZsZWN0aW9uAE9kYmNQYXJhbWV0ZXJDb2xsZWN0aW9uAE9kYmNDb25uZWN0aW9uAEFj
+cXVpcmVDb25uZWN0aW9uAEV4Y2VwdGlvbgBTeXN0ZW0uRGF0YS5Db21tb24AQ3VsdHVyZUluZm8A
+Q2hhcgBTdHJlYW1SZWFkZXIAVGV4dFJlYWRlcgBnZXRfUmVzb3VyY2VNYW5hZ2VyAENvbm5lY3Rp
+b25NYW5hZ2VyAEV2ZW50c09iamVjdFdyYXBwZXIAT2RiY1BhcmFtZXRlcgBGaXJlRXJyb3IALmN0
+b3IALmNjdG9yAFN5c3RlbS5EaWFnbm9zdGljcwBTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZp
+Y2VzAFN5c3RlbS5SZXNvdXJjZXMAU1RfNjg3OTgyMzAzOWM2NGYxYzgzMmNkZjIxMTRhNzY2ZGEu
+UHJvcGVydGllcy5SZXNvdXJjZXMucmVzb3VyY2VzAERlYnVnZ2luZ01vZGVzAFNUXzY4Nzk4MjMw
+MzljNjRmMWM4MzJjZGYyMTE0YTc2NmRhLlByb3BlcnRpZXMAZ2V0X1ZhcmlhYmxlcwBTZXR0aW5n
+cwBnZXRfQ29ubmVjdGlvbnMAZ2V0X1BhcmFtZXRlcnMAU3VjY2VzcwBnZXRfRHRzAFNjcmlwdFJl
+c3VsdHMAZ2V0X0V2ZW50cwBDb25jYXQARm9ybWF0AE9iamVjdABTcGxpdABnZXRfRGVmYXVsdABz
+ZXRfVGFza1Jlc3VsdABUb0NoYXJBcnJheQBnZXRfQXNzZW1ibHkARXhlY3V0ZU5vblF1ZXJ5AAAA
+ACckAFAAYQBjAGsAYQBnAGUAOgA6AFMAZQBwAGEAcgBhAGQAbwByAAApJABQAGEAYwBrAGEAZwBl
+ADoAOgBUAGUAcgBtAGkAbgBhAHQAbwByAAAtJABQAGEAYwBrAGEAZwBlADoAOgBQAHIAaQBtAGUA
+cgBhAEwAaQBuAGUAYQAALSQAUABhAGMAawBhAGcAZQA6ADoAUgB1AHQAYQBDAG8AbQBwAHIAYQBz
+ADEAACskAFAAYQBjAGsAYQBnAGUAOgA6AFIAdQB0AGEAVgBlAG4AdABhAHMAMQAAQ2wAbwBjAGEA
+bABoAG8AcwB0AC4AcwBzADIAXwAyADAAMgAwADEAMAA4ADEANABfAHAAcgAxAC4AcgBvAG8AdAAx
+AAABAIMNSQBOAFMARQBSAFQAIABJAE4AVABPACAAdABlAG0AcABvAHIAYQBsAF8AYwBvAG0AcABy
+AGEAcwAgACgADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgAEYAZQBjAGgAYQAsACAAQwBvAGQA
+UAByAG8AdgBlAGUAZABvAHIALAAgAE4AbwBtAGIAcgBlAFAAcgBvAHYAZQBlAGQAbwByACwAIABE
+AGkAcgBlAGMAYwBpAG8AbgBQAHIAbwB2AGUAZQBkAG8AcgAsACAATgB1AG0AZQByAG8AUAByAG8A
+dgBlAGUAZABvAHIALAAgAFcAZQBiAFAAcgBvAHYAZQBlAGQAbwByACwAIAANAAoAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAQwBvAGQAUAByAG8AZAB1AGMAdABvACwAIABOAG8AbQBiAHIAZQBQAHIA
+bwBkAHUAYwB0AG8ALAAgAE0AYQByAGMAYQBQAHIAbwBkAHUAYwB0AG8ALAAgAEMAYQB0AGUAZwBv
+AHIAaQBhACwAIABDAG8AZABTAHUAYwB1AHIAcwBhAGwALAAgAE4AbwBtAGIAcgBlAFMAdQBjAHUA
+cgBzAGEAbAAsACAADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgAEQAaQByAGUAYwBjAGkAbwBu
+AFMAdQBjAHUAcgBzAGEAbAAsACAAUgBlAGcAaQBvAG4ALAAgAEQAZQBwAGEAcgB0AGEAbQBlAG4A
+dABvACwAIABVAG4AaQBkAGEAZABlAHMALAAgAEMAbwBzAHQAbwBVACkAIAANAAoAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAVgBBAEwAVQBFAFMAIAAoAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAA/ACwAIAA/ACwAIAA/ACwAIAA/ACwAIAA/ACwAIAA/ACwAIAA/ACwAIAA/ACwAIAA/ACwAIAA/
+ACwAIAA/ACwAIAA/ACwAIAA/ACwAIAA/ACwAIAA/ACwAIAA/ACwAIAA/ACkAAA1AAEYAZQBjAGgA
+YQAAG0AAQwBvAGQAUAByAG8AdgBlAGUAZABvAHIAACFAAE4AbwBtAGIAcgBlAFAAcgBvAHYAZQBl
+AGQAbwByAAAnQABEAGkAcgBlAGMAYwBpAG8AbgBQAHIAbwB2AGUAZQBkAG8AcgAAIUAATgB1AG0A
+ZQByAG8AUAByAG8AdgBlAGUAZABvAHIAABtAAFcAZQBiAFAAcgBvAHYAZQBlAGQAbwByAAAZQABD
+AG8AZABQAHIAbwBkAHUAYwB0AG8AAB9AAE4AbwBtAGIAcgBlAFAAcgBvAGQAdQBjAHQAbwAAHUAA
+TQBhAHIAYwBhAFAAcgBvAGQAdQBjAHQAbwAAFUAAQwBhAHQAZQBnAG8AcgBpAGEAABlAAEMAbwBk
+AFMAdQBjAHUAcgBzAGEAbAAAH0AATgBvAG0AYgByAGUAUwB1AGMAdQByAHMAYQBsAAAlQABEAGkA
+cgBlAGMAYwBpAG8AbgBTAHUAYwB1AHIAcwBhAGwAAA9AAFIAZQBnAGkAbwBuAAAbQABEAGUAcABh
+AHIAdABhAG0AZQBuAHQAbwAAE0AAVQBuAGkAZABhAGQAZQBzAAAPQABDAG8AcwB0AG8AVQAAH3QA
+ZQBtAHAAbwByAGEAbABfAHYAZQBuAHQAYQBzAAAZSQBOAFMARQBSAFQAIABJAE4AVABPACAAAI2h
+KABGAGUAYwBoAGEADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAALABDAG8AZABpAGcAbwBDAGwAaQBlAG4AdABlAA0ACgAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACwATgBvAG0AYgBy
+AGUAQwBsAGkAZQBuAHQAZQANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAsAFQAaQBwAG8AQwBsAGkAZQBuAHQAZQANAAoAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAsAEQAaQByAGUA
+YwBjAGkAbwBuAEMAbABpAGUAbgB0AGUADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAALABOAHUAbQBlAHIAbwBDAGwAaQBlAG4AdABlAA0A
+CgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACwAQwBvAGQAVgBlAG4AZABlAGQAbwByAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACwATgBvAG0AYgByAGUAVgBlAG4AZABlAGQAbwBy
+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACwAVgBhAGMAYQBjAGkAbwBuAGkAcwB0AGEADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAALABDAG8AZABQAHIAbwBkAHUAYwB0AG8A
+DQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAALABOAG8AbQBiAHIAZQBQAHIAbwBkAHUAYwB0AG8ADQAKACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAALABNAGEAcgBjAGEAUAByAG8AZAB1
+AGMAdABvAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACwAQwBhAHQAZQBnAG8AcgBpAGEADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAALABDAG8AZABTAHUAYwB1AHIAcwBhAGwA
+DQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAALABOAG8AbQBiAHIAZQBTAHUAYwB1AHIAcwBhAGwADQAKACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAALABEAGkAcgBlAGMAYwBpAG8AbgBT
+AHUAYwB1AHIAcwBhAGwADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAALABSAGUAZwBpAG8AbgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAsAEQAZQBwAGEAcgB0AGEAbQBlAG4A
+dABvAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACwAVQBuAGkAZABhAGQAZQBzAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACwAUAByAGUAYwBpAG8AVQBuAGkAdABhAHIAaQBv
+ACkAIAANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIABWAEEATABVAEUAUwAgACgADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAQABGAGUAYwBoAGEADQAKACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAALABAAEMAbwBkAGkAZwBv
+AEMAbABpAGUAbgB0AGUADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAALABAAE4AbwBtAGIAcgBlAEMAbABpAGUAbgB0AGUADQAKACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAALABAAFQA
+aQBwAG8AQwBsAGkAZQBuAHQAZQANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAsAEAARABpAHIAZQBjAGMAaQBvAG4AQwBsAGkAZQBuAHQA
+ZQANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAsAEAATgB1AG0AZQByAG8AQwBsAGkAZQBuAHQAZQANAAoAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAsAEAAQwBvAGQAVgBlAG4AZABl
+AGQAbwByAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACwAQABOAG8AbQBiAHIAZQBWAGUAbgBkAGUAZABvAHIADQAKACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAALABAAFYAYQBjAGEA
+YwBpAG8AbgBpAHMAdABhAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACwAQABDAG8AZABQAHIAbwBkAHUAYwB0AG8ADQAKACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAALABAAE4AbwBt
+AGIAcgBlAFAAcgBvAGQAdQBjAHQAbwANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAsAEAATQBhAHIAYwBhAFAAcgBvAGQAdQBjAHQAbwAN
+AAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAsAEAAQwBhAHQAZQBnAG8AcgBpAGEADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAALABAAEMAbwBkAFMAdQBjAHUAcgBzAGEAbAANAAoA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAs
+AEAATgBvAG0AYgByAGUAUwB1AGMAdQByAHMAYQBsAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACwAQABEAGkAcgBlAGMAYwBpAG8AbgBT
+AHUAYwB1AHIAcwBhAGwADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAALABAAFIAZQBnAGkAbwBuAA0ACgAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACwAQABEAGUAcABhAHIAdABhAG0A
+ZQBuAHQAbwANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAsAEAAVQBuAGkAZABhAGQAZQBzAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACwAQABQAHIAZQBjAGkAbwBVAG4AaQB0
+AGEAcgBpAG8AKQAAHUAAQwBvAGQAaQBnAG8AQwBsAGkAZQBuAHQAZQAAHUAATgBvAG0AYgByAGUA
+QwBsAGkAZQBuAHQAZQAAGUAAVABpAHAAbwBDAGwAaQBlAG4AdABlAAAjQABEAGkAcgBlAGMAYwBp
+AG8AbgBDAGwAaQBlAG4AdABlAAAdQABOAHUAbQBlAHIAbwBDAGwAaQBlAG4AdABlAAAZQABDAG8A
+ZABWAGUAbgBkAGUAZABvAHIAAB9AAE4AbwBtAGIAcgBlAFYAZQBuAGQAZQBkAG8AcgAAG0AAVgBh
+AGMAYQBjAGkAbwBuAGkAcwB0AGEAAB9AAFAAcgBlAGMAaQBvAFUAbgBpAHQAYQByAGkAbwAAN0UA
+cgByAG8AcgA6ACAAewAwAH0ACgBTAHQAYQBjAGsAIABUAHIAYQBjAGUAOgAgAHsAMQB9AAAfRQBy
+AHIAbwByACAAZQBuACAAUwBjAHIAaQBwAHQAAHFTAFQAXwA2ADgANwA5ADgAMgAzADAAMwA5AGMA
+NgA0AGYAMQBjADgAMwAyAGMAZABmADIAMQAxADQAYQA3ADYANgBkAGEALgBQAHIAbwBwAGUAcgB0
+AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAAAAM7S+IgkIMhAiXyYdvYtzxcABCABAQgDIAAB
+BSABARERBCABAQ4FIAEBEWEYBw4ODhI9CA4SQQ4SQR0OEkUdDhJFEkkOBCAAEnEEIAASdQUgARJ5
+HAMgABwFIAASgIUGIAESgIkcBCABHBwEIAAdAwYgAR0OHQMGIAIBDhI9BSAAEoCRByACEoCVDhwD
+IAAIAyAADgYAAw4ODg4GAAMODhwcBSAAEoClCCAFAggODg4ICAABEoCpEYCtBSAAEoCxByACAQ4S
+gLEIt3pcVhk04IkIiYRdzYCAzJEEAAAAAAQBAAAAAwYSWQMGEl0DBhIQAgYIAwYRFAQAABJZBAAA
+El0FAAEBEl0EAAASEAMAAAEECAASWQQIABJdBAgAEhAIAQAIAAAAAAAeAQABAFQCFldyYXBOb25F
+eGNlcHRpb25UaHJvd3MBCAEAAgAAAAAAKAEAI1NUXzY4Nzk4MjMwMzljNjRmMWM4MzJjZGYyMTE0
+YTc2NmRhAAAFAQAAAAAWAQARQ29weXJpZ2h0IEAgIDIwMjUAAEkBABouTkVURnJhbWV3b3JrLFZl
+cnNpb249djQuNwEAVA4URnJhbWV3b3JrRGlzcGxheU5hbWUSLk5FVCBGcmFtZXdvcmsgNC43ALQA
+AADOyu++AQAAAJEAAABsU3lzdGVtLlJlc291cmNlcy5SZXNvdXJjZVJlYWRlciwgbXNjb3JsaWIs
+IFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1
+NjE5MzRlMDg5I1N5c3RlbS5SZXNvdXJjZXMuUnVudGltZVJlc291cmNlU2V0AgAAAAAAAAAAAAAA
+UEFEUEFEULQAAAD0SgAAAAAAAAAAAAAOSwAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEsAAAAA
+AAAAAAAAAABfQ29yRGxsTWFpbgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAGAAA
+gAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAASAAAAFhgAAAaBAAA
+AAAAAAAAAAAaBDQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAAAAAAvQTv/gAAAQAA
+AAEAXJf+IwAAAQBcl/4jPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAABAFYAYQByAEYA
+aQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBuAAAAAAAAALAEegMA
+AAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAVgMAAAEAMAAwADAAMAAwADQAYgAwAAAA
+GgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBuAHkATgBhAG0AZQAA
+AAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAAAABTAFQAXwA2ADgA
+NwA5ADgAMgAzADAAMwA5AGMANgA0AGYAMQBjADgAMwAyAGMAZABmADIAMQAxADQAYQA3ADYANgBk
+AGEAAAA+AA8AAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4AOQAyADEANAAuADMA
+OAA3ADQAOAAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAFQAXwA2ADgANwA5
+ADgAMgAzADAAMwA5AGMANgA0AGYAMQBjADgAMwAyAGMAZABmADIAMQAxADQAYQA3ADYANgBkAGEA
+LgBkAGwAbAAAAEgAEgABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAAAEMAbwBwAHkAcgBp
+AGcAaAB0ACAAQAAgACAAMgAwADIANQAAACoAAQABAEwAZQBnAGEAbABUAHIAYQBkAGUAbQBhAHIA
+awBzAAAAAAAAAAAAeAAoAAEATwByAGkAZwBpAG4AYQBsAEYAaQBsAGUAbgBhAG0AZQAAAFMAVABf
+ADYAOAA3ADkAOAAyADMAMAAzADkAYwA2ADQAZgAxAGMAOAAzADIAYwBkAGYAMgAxADEANABhADcA
+NgA2AGQAYQAuAGQAbABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBlAAAAAABTAFQAXwA2
+ADgANwA5ADgAMgAzADAAMwA5AGMANgA0AGYAMQBjADgAMwAyAGMAZABmADIAMQAxADQAYQA3ADYA
+NgBkAGEAAABCAA8AAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAxAC4AMAAuADkAMgAx
+ADQALgAzADgANwA0ADgAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQByAHMAaQBvAG4A
+AAAxAC4AMAAuADkAMgAxADQALgAzADgANwA0ADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAMAAAAIDsAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
+        </ScriptProject>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Truncate MySQL 1 ventas"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{a6c6e5c3-2881-444f-9100-5439ecf17df4}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate MySQL 1 ventas"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{6AA4121D-2517-433D-8FD4-B1792723C3EB}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE temporal_ventas;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Truncate MySQL compras"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{4C3A1383-4816-49D5-A88A-0456C8F808FE}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate MySQL compras"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{6AA4121D-2517-433D-8FD4-B1792723C3EB}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE temporal_compras;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Truncate SQL Server"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
@@ -4003,7 +5547,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate SQL Server"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -4030,6 +5574,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restricción 1"
       DTS:To="Package\Tarea Flujo de datos" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{E6699DEE-ED65-411A-9FEA-5AEA76845E7A}"
+      DTS:From="Package\Truncate MySQL compras"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 2"
+      DTS:To="Package\Truncate MySQL 1 ventas" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{DA398244-C885-4C60-A173-F1E35EF8F5EA}"
+      DTS:From="Package\Truncate MySQL 1 ventas"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 3"
+      DTS:To="Package\Tarea Script 1" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{563502AC-B6DD-435A-8EC9-AEAC6ADA2672}"
+      DTS:From="Package\Tarea Script 1"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 4"
+      DTS:To="Package\Tarea Flujo de datos" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
@@ -4042,29 +5610,45 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Tarea Flujo de datos"
+          TopLeft="284,345" />
         <NodeLayout
           Size="139,42"
           Id="Package\Tarea Script"
           TopLeft="144,189" />
         <NodeLayout
+          Size="148,42"
+          Id="Package\Tarea Script 1"
+          TopLeft="436.5,217.5" />
+        <NodeLayout
+          Size="206,42"
+          Id="Package\Truncate MySQL 1 ventas"
+          TopLeft="356,131" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Truncate MySQL compras"
+          TopLeft="386.5,43.5" />
+        <NodeLayout
           Size="144,53"
           Id="Package\Truncate SQL Server"
-          TopLeft="146,68" />
+          TopLeft="144,57" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="215.75,121">
+          TopLeft="214.75,110">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,68"
+              EndConnector="0,79"
               Start="0,0"
-              End="0,60.5">
+              End="0,71.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,60.5" />
+                    End="0,71.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4073,10 +5657,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="180,42"
-          Id="Package\Tarea Flujo de datos"
-          TopLeft="284,345" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 1]"
           TopLeft="213.5,231">
@@ -4111,6 +5691,108 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 2]"
+          TopLeft="474.5,85.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-15.5,45.5"
+              Start="0,0"
+              End="-15.5,38">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.75"
+                    Point2="0,22.75"
+                    Point3="-4,22.75" />
+                  <mssgle:LineSegment
+                    End="-11.5,22.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-11.5,22.75"
+                    Point2="-15.5,22.75"
+                    Point3="-15.5,26.75" />
+                  <mssgle:LineSegment
+                    End="-15.5,38" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 3]"
+          TopLeft="459,173">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="51.5,44.5"
+              Start="0,0"
+              End="51.5,37">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.25"
+                    Point2="0,22.25"
+                    Point3="4,22.25" />
+                  <mssgle:LineSegment
+                    End="47.5,22.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="47.5,22.25"
+                    Point2="51.5,22.25"
+                    Point3="51.5,26.25" />
+                  <mssgle:LineSegment
+                    End="51.5,37" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 4]"
+          TopLeft="510.5,259.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-107.833333333333,85.5"
+              Start="0,0"
+              End="-107.833333333333,78">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.8480176211454" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,46.8480176211454"
+                    Point2="0,50.8480176211454"
+                    Point3="-4,50.8480176211454" />
+                  <mssgle:LineSegment
+                    End="-103.833333333333,50.8480176211454" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-103.833333333333,50.8480176211454"
+                    Point2="-107.833333333333,50.8480176211454"
+                    Point3="-107.833333333333,54.8480176211454" />
+                  <mssgle:LineSegment
+                    End="-107.833333333333,78" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -4120,53 +5802,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="118,42"
-          Id="Package\Tarea Flujo de datos\COMP1"
-          TopLeft="160.5,174.5" />
+          Size="166,42"
+          Id="Package\Tarea Flujo de datos\Union ALL COMP"
+          TopLeft="210.5,354.5" />
         <NodeLayout
           Size="114,42"
           Id="Package\Tarea Flujo de datos\VENT1"
           TopLeft="644.5,171.5" />
         <NodeLayout
-          Size="166,42"
-          Id="Package\Tarea Flujo de datos\Union ALL COMP"
-          TopLeft="210.5,354.5" />
-        <EdgeLayout
-          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de OLE DB]"
-          TopLeft="219.5,216.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="74,138"
-              Start="0,0"
-              End="74,130.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,65" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,65"
-                    Point2="0,69"
-                    Point3="4,69" />
-                  <mssgle:LineSegment
-                    End="70,69" />
-                  <mssgle:CubicBezierSegment
-                    Point1="70,69"
-                    Point2="74,69"
-                    Point3="74,73" />
-                  <mssgle:LineSegment
-                    End="74,130.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="29,74,16,16"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="118,42"
+          Id="Package\Tarea Flujo de datos\COMP1"
+          TopLeft="62.5,157.5" />
+        <NodeLayout
+          Size="118,42"
+          Id="Package\Tarea Flujo de datos\COMP3"
+          TopLeft="395.5,152.225352112676" />
+        <NodeLayout
+          Size="118,42"
+          Id="Package\Tarea Flujo de datos\COMP2"
+          TopLeft="197.5,155.5" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Tarea Flujo de datos\División condicional"
+          TopLeft="216.5,667.5" />
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Tarea Flujo de datos\Columna derivada"
+          TopLeft="209.5,559.5" />
         <NodeLayout
           Size="180,42"
           Id="Package\Tarea Flujo de datos\Conversión de datos"
@@ -4193,10 +5855,110 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Tarea Flujo de datos\Columna derivada"
-          TopLeft="209.5,559.5" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de OLE DB]"
+          TopLeft="121.5,199.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="145.666666666667,155"
+              Start="0,0"
+              End="145.666666666667,147.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,88.1121718377088" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,88.1121718377088"
+                    Point2="0,92.1121718377088"
+                    Point3="4,92.1121718377088" />
+                  <mssgle:LineSegment
+                    End="141.666666666667,92.1121718377088" />
+                  <mssgle:CubicBezierSegment
+                    Point1="141.666666666667,92.1121718377088"
+                    Point2="145.666666666667,92.1121718377088"
+                    Point3="145.666666666667,96.1121718377088" />
+                  <mssgle:LineSegment
+                    End="145.666666666667,147.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="64.8333333333335,97.1121718377088,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
+          TopLeft="454.5,194.225352112676">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-134.666666666667,160.274647887324"
+              Start="0,0"
+              End="-134.666666666667,152.774647887324">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,91.2467477898417" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,91.2467477898417"
+                    Point2="0,95.2467477898417"
+                    Point3="-4,95.2467477898417" />
+                  <mssgle:LineSegment
+                    End="-130.666666666667,95.2467477898417" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-130.666666666667,95.2467477898417"
+                    Point2="-134.666666666667,95.2467477898417"
+                    Point3="-134.666666666667,99.2467477898417" />
+                  <mssgle:LineSegment
+                    End="-134.666666666667,152.774647887324" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de ADO NET]"
+          TopLeft="256.5,197.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="37,157"
+              Start="0,0"
+              End="37,149.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,74.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,74.5"
+                    Point2="0,78.5"
+                    Point3="4,78.5" />
+                  <mssgle:LineSegment
+                    End="33,78.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="33,78.5"
+                    Point2="37,78.5"
+                    Point3="37,82.5" />
+                  <mssgle:LineSegment
+                    End="37,149.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Tarea Flujo de datos.Paths[Salida de conversión de datos]"
           TopLeft="297,483.5">
@@ -4219,10 +5981,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Tarea Flujo de datos\División condicional"
-          TopLeft="216.5,667.5" />
         <EdgeLayout
           Id="Package\Tarea Flujo de datos.Paths[Salida de columna derivada]"
           TopLeft="293.5,601.5">
@@ -4259,47 +6017,22 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="118,42"
-          Id="Package\Tarea Flujo de datos\COMP3"
-          TopLeft="375.5,148.225352112676" />
-        <EdgeLayout
-          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
-          TopLeft="434.5,190.225352112676">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-114.666666666667,164.274647887324"
-              Start="0,0"
-              End="-114.666666666667,156.774647887324">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,93.6238360953309" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,93.6238360953309"
-                    Point2="0,97.6238360953309"
-                    Point3="-4,97.6238360953309" />
-                  <mssgle:LineSegment
-                    End="-110.666666666667,97.6238360953309" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-110.666666666667,97.6238360953309"
-                    Point2="-114.666666666667,97.6238360953309"
-                    Point3="-114.666666666667,101.623836095331" />
-                  <mssgle:LineSegment
-                    End="-114.666666666667,156.774647887324" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\VENT1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Tarea Flujo de datos\COMP1">
     <Properties>
@@ -4314,15 +6047,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Tarea Flujo de datos\VENT1">
+    design-time-name="Package\Tarea Flujo de datos\COMP2">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

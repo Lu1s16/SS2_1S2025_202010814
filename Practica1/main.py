@@ -21,6 +21,9 @@ def CargarRuta():
 #Copia
 #C:\Users\Luis\Documents\Cursos\Semi2\Practica1\copia\VuelosDataSet.csv
 
+#C:\Users\Ale Garcia\Desktop\VuelosDataSet.csv
+
+
 def Menu_consultas():
 
     

@@ -5,7 +5,7 @@ import pandas as pd
 class BD:
 
     def __init__(self):
-        self.cnx = pyodbc.connect(r'Driver= {SQL Server}; SERVER={DESKTOP-UCSIJH1\SQLEXPRESS}; Database= {SS2_202010814_P1}; Trusted_conection= yes;')
+        self.cnx = pyodbc.connect(r'Driver= {SQL Server}; SERVER={DESKTOP-BKSGII0\SQLEXPRESS}; Database= {SS2_202010814_P1}; Trusted_conection= yes;')
         self.cursor = self.cnx.cursor()
         self.cursor.execute("USE SS2_202010814_P1;")
 
