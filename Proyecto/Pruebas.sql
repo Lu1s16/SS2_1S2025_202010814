@@ -1,6 +1,0 @@
-USE [SS2_202010814_PR1]
-GO
-
-SELECT * FROM Compras_Temp;
-SELECT * FROM Ventas_Temp;
-
