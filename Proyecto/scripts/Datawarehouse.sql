@@ -93,6 +93,8 @@ CREATE TABLE Venta (
 );
 GO
 
-SELECT * FROM Proveedor;
+SELECT * FROM Sucursal;
 SELECT * FROM Sucursal;
 SELECT * FROM Producto;
+SELECT * FROM Compra;
+SELECT * FROM Venta;
